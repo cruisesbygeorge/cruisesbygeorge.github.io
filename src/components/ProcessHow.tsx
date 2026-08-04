@@ -42,7 +42,7 @@ export default function ProcessHow() {
         <div className="my-process-how">
           <h3>HOW IT WORKS</h3>
           <p className="my-process-how-intro">
-            In an era saturated with automated responses and anonymity, Destinations By George designs each
+            In an era saturated with automated responses and anonymity, Cruises by George designs each
             trip by establishing a personal connection with our clients.
           </p>
           <div className="my-process-steps">
