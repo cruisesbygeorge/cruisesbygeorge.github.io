@@ -1,0 +1,128 @@
+.my-process-section {
+  padding: 80px 0;
+  background-color: var(--royalBlue);
+  ;
+}
+
+.my-process-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.my-process-title {
+  font-family: 'Garamond';
+  font-size: clamp(1.6rem, 3vw, 2.4rem);
+  font-weight: 700;
+  color: var(--primaryTextColor);
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.my-process-intro {
+  line-height: 1.8;
+  color: var(--secondaryTextColor);
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.my-process-specialties-row {
+  margin: 48px 0;
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.my-process-specialties {
+  flex: 1;
+}
+
+.my-process-cards-swiper {
+  flex-shrink: 0;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.process-swiper {
+  width: 300px;
+  height: 400px;
+}
+
+.process-swiper .swiper-slide {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.process-swiper .swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.my-process-specialties h3 {
+  font-weight: 700;
+  color: var(--primaryTextColor);
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.my-process-specialties ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.my-process-specialties ul li {
+  font-size: 1.1rem;
+  color: var(--secondaryTextColor);
+  line-height: 1.6;
+  padding-left: 20px;
+  position: relative;
+}
+
+.my-process-specialties ul li::before {
+  content: '—';
+  position: absolute;
+  left: 0;
+  color: var(--secondaryTextColor);
+}
+
+@media (max-width: 768px) {
+  .my-process-section {
+    padding: 56px 0;
+  }
+
+  .my-process-inner {
+    width: 80vw;
+    max-width: none;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .my-process-specialties-row {
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .my-process-specialties {
+    float: none;
+    flex: none;
+    width: 100%;
+  }
+
+  .my-process-cards-swiper {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .process-swiper {
+    width: 200px;
+    height: 280px;
+  }
+}
