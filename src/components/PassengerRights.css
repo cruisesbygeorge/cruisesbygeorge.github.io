@@ -1,0 +1,81 @@
+.passenger-rights-section {
+  padding: 80px 0;
+  background-image: linear-gradient(rgba(33, 47, 125, 0.8), rgba(33, 47, 125, 1)), url('/bill-of-rights-cropped.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.passenger-rights-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.passenger-rights-title {
+  font-family: 'Garamond';
+  font-size: clamp(1.6rem, 3vw, 2.4rem);
+  font-weight: 700;
+  color: var(--primaryTextColor);
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.passenger-rights-intro {
+  line-height: 1.8;
+  color: var(--secondaryTextColor);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.passenger-rights-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.passenger-rights-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 24px 28px;
+  background-color: rgba(10, 36, 80, 0.9);
+  border-radius: 4px;
+}
+
+.passenger-rights-number {
+  font-family: 'Garamond', serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--primaryTextColor);
+  flex-shrink: 0;
+  line-height: 1.4;
+  min-width: 28px;
+}
+
+.passenger-rights-item p {
+  line-height: 1.8;
+  color: var(--secondaryTextColor);
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .passenger-rights-section {
+    padding: 56px 0;
+  }
+
+  .passenger-rights-inner {
+    width: 80vw;
+    max-width: none;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .passenger-rights-item {
+    gap: 16px;
+    padding: 20px 20px;
+  }
+}

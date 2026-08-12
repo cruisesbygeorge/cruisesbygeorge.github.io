@@ -4,6 +4,7 @@ import './HamburgerMenu.css';
 const NAV_ITEMS = [
   { label: 'Advantages', href: '#advantages' },
   { label: 'My Services', href: '#my-process' },
+  { label: 'Passenger Bill of Rights', href: '#passenger-rights' },
   { label: 'About', href: '#about' },
   { label: 'Inquire', href: '#inquire' },
 ];

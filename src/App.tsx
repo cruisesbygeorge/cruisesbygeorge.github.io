@@ -1,6 +1,7 @@
 import VideoBanner from './components/VideoBanner';
 import Advantages from './components/Advantages';
 import MyProcess from './components/MyProcess';
+import PassengerRights from './components/PassengerRights';
 import ProcessHow from './components/ProcessHow';
 import ProcessService from './components/ProcessService';
 import About from './components/About';
@@ -15,6 +16,7 @@ export default function App() {
         <VideoBanner />
         <Advantages />
         <MyProcess />
+        <PassengerRights />
         <ProcessHow />
         <ProcessService />
         <About />
