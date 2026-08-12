@@ -48,7 +48,7 @@ export default function MyProcess() {
               autoplay={{ delay: 2500, disableOnInteraction: false }}
             >
               <SwiperSlide>
-                <img src="/my_process_images/cards/nikki_boat.webp" alt="Boat" />
+                <img src="/my_process_images/cards/couple-relaxing.webp" alt="Boat" />
               </SwiperSlide>
               <SwiperSlide>
                 <img src="/my_process_images/cards/sax_party.webp" alt="Sax party" />

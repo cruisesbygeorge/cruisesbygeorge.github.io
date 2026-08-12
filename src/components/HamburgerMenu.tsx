@@ -3,7 +3,7 @@ import './HamburgerMenu.css';
 
 const NAV_ITEMS = [
   { label: 'Advantages', href: '#advantages' },
-  { label: 'My Process', href: '#my-process' },
+  { label: 'My Services', href: '#my-process' },
   { label: 'About', href: '#about' },
   { label: 'Inquire', href: '#inquire' },
 ];

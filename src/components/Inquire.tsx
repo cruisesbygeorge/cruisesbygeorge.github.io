@@ -30,7 +30,7 @@ export default function Inquire() {
         <img src="/st_barths.webp" alt="Contact background" />
       </div> */}
       <div className="inquire-banner">
-        <img src="/girl_in_car.webp" alt="" aria-hidden="true" />
+        <img src="/seabourne_ship_caribbean.webp" alt="" aria-hidden="true" />
       </div>
       <div className="inquire-overlay">
         <div className="inquire-contact">
