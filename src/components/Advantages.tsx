@@ -1,14 +1,5 @@
 import './Advantages.css';
 
-const ADVANTAGE_BOXES = [
-  { label: 'VIP Status', image: '/advantages_images/vip_status.webp' },
-  { label: 'Complimentary Breakfast for Two Daily', image: '/advantages_images/breakfast_for_two.webp' },
-  { label: 'Room Upgrade on Arrival, When Available', image: '/advantages_images/hotel_upgrade.webp' },
-  { label: 'Special Benefits Including Free Round of Golf, $200 Dining or Spa Credit', image: '/advantages_images/spa.webp' },
-  { label: 'Complimentary Wi-Fi', image: '/advantages_images/wifi.webp' },
-  { label: 'Early Check In and Late Check Out, When Available', image: '/advantages_images/reception.webp' },
-];
-
 const REASONS = [
   {
     title: 'Expert Guidance, Advocacy and Time Savings',
@@ -44,21 +35,6 @@ export default function Advantages() {
   return (
     <section id="advantages" className="advantages-section">
       <div className="advantages-inner">
-        <h2 className="advantages-title">What am I offering?</h2>
-        <h3 className="advantages-subtitle">Exclusive Privileges when Booking with Cruises By George:</h3>
-
-        <div className="advantages-carousel-wrapper">
-          <div className="advantages-grid">
-            {[...ADVANTAGE_BOXES, ...ADVANTAGE_BOXES].map((box, i) => (
-              <div key={`${box.label}-${i}`} className="advantage-box">
-                <img src={box.image} alt={box.label} />
-                <div className="advantage-box-overlay">
-                  <span>{box.label}</span>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
         <div className="advantages-reasons-bg">
           <p className="advantages-reasons-intro">
             Reserving your voyage with Cruises By George offers several distinct privileges:
