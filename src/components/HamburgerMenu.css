@@ -123,8 +123,12 @@
   }
 
   .dropdown-menu li {
-    padding: 20px;
-    margin: 20px;
+    padding: 18px;
+    margin: 18px;
+  }
+
+  .dropdown-menu li a {
+    font-size: 28px;
   }
 }
 
@@ -145,22 +149,17 @@
   }
 
   .dropdown-menu li {
-    padding: 18px;
-    margin: 18px;
+    padding: 12px;
+    margin: 12px;
   }
 
   .dropdown-menu li a {
-    font-size: 28px;
+    font-size: 25px;
   }
 
 }
 
 @media (max-width: 768px) {
-
-  /* Dropdown */
-  .dropdown-menu {
-    background: var(--lightBlue);
-  }
 
   .dropdown-menu li a:hover {
     text-shadow: none;
