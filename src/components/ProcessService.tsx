@@ -1,3 +1,7 @@
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { EffectCards, Autoplay } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/effect-cards';
 import './ProcessService.css';
 
 const STATS = [
@@ -196,13 +200,43 @@ export default function ProcessService() {
           </div>
         </div>
 
-        <div className="service-specialties">
-          <h3>Our Specialties:</h3>
-          <ul>
-            {SPECIALTIES.map((item) => (
-              <li key={item}>{item}</li>
-            ))}
-          </ul>
+        <div className="service-specialties-row">
+          <div className="service-specialties">
+            <h3>Our Specialties:</h3>
+            <ul>
+              {SPECIALTIES.map((item) => (
+                <li key={item}>{item}</li>
+              ))}
+            </ul>
+          </div>
+          <div className="service-specialties-swiper">
+            <Swiper
+              effect="cards"
+              grabCursor={true}
+              modules={[EffectCards, Autoplay]}
+              className="process-swiper"
+              autoplay={{ delay: 2500, disableOnInteraction: false }}
+            >
+              <SwiperSlide>
+                <img src="/my_process_images/cards/crystal-ship-at-sea.webp" alt="Sax party" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src="/my_process_images/cards/front-top-deck.webp" alt="Sax party" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src="/my_process_images/cards/group_dinner.webp" alt="Group dinner" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src="/my_process_images/cards/couple-relaxing.webp" alt="Couple relaxing" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src="/my_process_images/cards/bartender.webp" alt="Bartender" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src="/my_process_images/cards/crystal-sundeck.webp" alt="Boat" />
+              </SwiperSlide>
+            </Swiper>
+          </div>
         </div>
       </div>
     </section>
