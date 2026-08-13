@@ -49,6 +49,21 @@
   letter-spacing: 0.04em;
 }
 
+.service-block__image-row {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: flex-start;
+}
+
+.service-block__image {
+  width: 220px;
+  aspect-ratio: 9 / 16;
+  object-fit: cover;
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
 .service-block p {
   line-height: 1.8;
   color: var(--secondaryTextColor);
@@ -188,5 +203,15 @@
     max-width: none;
     margin: 0 auto;
     padding: 0;
+  }
+
+  .service-block__image-row {
+    flex-direction: column;
+  }
+
+  .service-block__image {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
   }
 }

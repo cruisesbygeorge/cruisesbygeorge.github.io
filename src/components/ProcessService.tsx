@@ -74,18 +74,27 @@ export default function ProcessService() {
 
           <div className="service-block">
             <h4>Logistical Nightmares Need Logistics Management</h4>
-            <p>
-              Long waits in baggage claim? Dragging and lifting heavy luggage through airport terminals and
-              ports? Transfers that are late or even worse don't even show up and leave you stranded? A
-              cruise involves more than just a ship ticket. For all your luggage, I recommend you just mail
-              it to the port of call. The courier service I work with will pick up your luggage directly
-              from your home and make sure it gets delivered straight to your cabin.
-            </p>
-            <p>
-              For transfers, I am very particular with whom I do business with. For your air, I can book
-              your flight or provide flight information. I also handle pre and post cruise hotel stays,
-              dinner reservations, procuring a round of golf, arranging all transfers.
-            </p>
+            <div className="service-block__image-row">
+              <img
+                src="/crystal-cabin.webp"
+                alt="Crystal cabin interior"
+                className="service-block__image"
+              />
+              <div>
+                <p>
+                  Long waits in baggage claim? Dragging and lifting heavy luggage through airport terminals and
+                  ports? Transfers that are late or even worse don't even show up and leave you stranded? A
+                  cruise involves more than just a ship ticket. For all your luggage, I recommend you just mail
+                  it to the port of call. The courier service I work with will pick up your luggage directly
+                  from your home and make sure it gets delivered straight to your cabin.
+                </p>
+                <p>
+                  For transfers, I am very particular with whom I do business with. For your air, I can book
+                  your flight or provide flight information. I also handle pre and post cruise hotel stays,
+                  dinner reservations, procuring a round of golf, arranging all transfers.
+                </p>
+              </div>
+            </div>
           </div>
 
           <div className="service-block">
